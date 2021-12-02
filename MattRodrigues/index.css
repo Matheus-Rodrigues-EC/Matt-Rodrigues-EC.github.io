@@ -25,6 +25,7 @@ img{
     border: solid rgb(0, 85, 0) 5px;
     border-radius: 50%;
     justify-self: center;
+    margin: 1rem;
 }
 
 p{
@@ -43,4 +44,5 @@ button{
     border-radius: 30px;
     margin: 0.5rem;
     padding: 1rem;
+    font-size: larger;
 }
