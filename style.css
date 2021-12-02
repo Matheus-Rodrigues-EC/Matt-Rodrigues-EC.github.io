@@ -39,6 +39,7 @@ p{
     border-radius: 30px;
     justify-self: center;
     margin: 0.25rem;
+    width: 75%;
 }
 
 a{
@@ -49,18 +50,19 @@ a{
     border-radius: 50px;
     text-decoration: none;
     width: 100%;
-    padding: 0.75rem 10rem;
+    padding: 5% 35%;
 }
 
 button{
     color: white;
     background-color: transparent;
+    justify-self: center;
     border: solid rgb(0, 85, 0) 5px;
     border-radius: 30px;
     margin: 0.25rem;
     padding: 0.75rem;
     font-size: large;
-    width: 100%;
+    width: 75%;
 }
 
 button:hover{
