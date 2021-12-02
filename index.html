@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="Minha página"
+      content="Para Contato"
+    />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <title>Matt Rodrigues</title>
+  </head>
+  <body>
+    <Container style={{ backgroundImage: `url(${BackGround})`,
+                          backgroundSize: 'cover',
+                          backgroundPosition: 'center',
+                          backgroundRepeat:'no-repeat' }}>
+            <img src={Avatar} alt={'Imagem de Matheus Rodrigues'} />
+            <h1>Matheus Rodrigues</h1>
+            <p>Desenvolvedor | Front-End | Back-End | Quixadá-CE, Brasil</p>
+            <button onClick={() => {window.location.replace('https://www.linkedin.com/in/matheus-rodrigues-ec/');}}>LinkedIn</button>
+            <button onClick={() => {window.location.replace('https://github.com/Matt-Rodrigues-EC')}}>GitHub</button>
+            <button onClick={() => {window.location.replace('https://api.whatsapp.com/send/?phone=%2B5585992699074&text&app_absent=0')}}>Whatsapp</button>
+      </Container>
+  );
+  </body>
+</html>
